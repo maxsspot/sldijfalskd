@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		<title>Motion2Open - Auto-Cabinet</title>
+	</head>
+	<body>
+		<nav>
+            <h1 id = "title">Motion2Open</h1>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>The Auto-Drawer</h1></h1>
+        <p>Attach the motion sensor to the front of your cabinet, and it's that easy. Now whenever it detects motion, it will automatically open the cabinet. Purchase this product for the affordable price of <b>$39.99</b>!</p>
+        <br>
+        <br>
+        <button id = "purchase">PURCHASE</button>
+	<br>
+	<button id = "cancel" onclick = "window.location.href='/'">RETURN HOME</button>
+        <br>
+        <br>
+        <sub>Not a real buisness.<br>© motion2open.netlify.app<br>
+        <br>
+        <br>
+          <style>
+            * {
+    font-family:"Lato", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body {
+	background-color:wheat;
+    text-align:center
+}
+
+nav {
+    height:60px;
+    background-color:#d7b57f;
+    position:fixed;
+    width:100%;
+}
+
+#logo {
+	width:150px;
+	height:200px;
+	margin-top:0px;
+}
+
+#title {
+    margin-top:15px;
+    float:left;
+    margin-left:15px;
+}
+
+p {
+    width:260px;
+    margin:auto;
+}
+
+#shop {
+    background-color:darkgray;
+    width:100%;
+}
+
+#purchase, #cancel {
+    width:200px;
+    height:40px;
+    border-radius:50px;
+    background-color:#0492c2;
+    border:transparent;
+    color:white;
+    margin:5px;
+    font-weight:bold;
+}
+
+#purchase:hover {
+	background-color:#5D8AA8;
+}
+
+#purchase:active {
+	transform:scale(0.95);
+}
+
+#cancel {
+	background-color:#5D8AA8;
+}
+
+#cancel:hover {
+	background-color:#0492c2;
+}
+
+#cancel:active {
+	transform:scale(0.95);
+}
+
+button {
+    cursor:pointer;
+    transition:all 0.25s;
+}
+          </style>
+    </body>
+</html>
