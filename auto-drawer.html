@@ -20,7 +20,7 @@
         <br>
         <button id = "purchase">PURCHASE</button>
 	<br>
-	<button id = "purchase" style = "background-color:transparent;border:#0492c2 solid 1px;" onclick = "window.location.href='/'">RETURN HOME</button>
+	<button id = "cancel" onclick = "window.location.href='/'">RETURN HOME</button>
         <br>
         <br>
         <sub>Not a real buisness.<br>© motion2open.netlify.app<br>
@@ -83,6 +83,18 @@ p {
 }
 
 #purchase:active {
+	transform:scale(0.95);
+}
+
+#cancel {
+	background-color:#5D8AA8;
+}
+
+#cancel:hover {
+	background-color:#0492c2;
+}
+
+#cancel:active {
 	transform:scale(0.95);
 }
 
